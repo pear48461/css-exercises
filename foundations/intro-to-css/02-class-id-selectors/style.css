@@ -1,1 +1,11 @@
-/* Add CSS Styling */
+/* styles.css */
+.odd {
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    background-color: rgb(190, 50, 141)
+}
+
+.second {
+    color: #3f6cb0;
+    font-size: 36px
+}
+
