@@ -4,8 +4,17 @@
     background-color: rgb(190, 50, 141)
 }
 
-.second {
+#second {
     color: #3f6cb0;
     font-size: 36px
 }
 
+.odd.third {
+    font-size: 24px
+}
+
+#fourth {
+    background-color: rgb(91, 131, 91);
+    font-size: 24px;
+    font-weight: 700
+}
