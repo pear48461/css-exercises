@@ -25,8 +25,6 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-  width: 1200px;
-  
 }
 
 a:link {
@@ -38,13 +36,25 @@ ul {
   list-style-type: none;
 }
 
+li {
+  margin: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 4 0%;
+  margin: 20px;
+  justify-content: space-around;
+}
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  flex-wrap: wrap;
+  width: 300px;
   height: 200px;
-  width; 400px;
+  gap: 10px;
 }
 
 .footer {
